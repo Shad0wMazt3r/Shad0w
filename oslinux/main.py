@@ -4,7 +4,7 @@ import platform
 import time
 import datetime
 print("You are running",platform.system())
-while platform.system().startswith("linux"):
+while True:
     start = input("$had0w:")
     if start == "view":
             os.system("ls")
