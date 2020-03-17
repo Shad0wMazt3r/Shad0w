@@ -17,7 +17,9 @@ while platform.system().startswith("linux"):
         5.make folder - makes a folder
         6.make file   - makes a file
         7.edit        - edit a text file
-        8.old         - goes to cmd""")
+        8.old         - goes to bash
+        9.back        - goes a dir back
+        10.go to      - opens a specific dir""")
     elif start == "clear":
             os.system("clear")
     elif start == "exit":
