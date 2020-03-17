@@ -17,7 +17,9 @@ while platform.system() == "Windows":
         5.make folder - makes a folder
         6.make file   - makes a file
         7.edit        - edit a text file
-        8.old         - goes to cmd""")
+        8.old         - goes to cmd
+        9.back        - goes a folder back
+        10.go to      - goes to a specific folder""")
     elif start == "clear":
         os.system("cls")
     elif start == "exit":
